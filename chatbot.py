@@ -16,7 +16,7 @@ st.title("QNA_CHATBOT")
 
 
 
-"""START MAKING CHATBOT USING LANGCHAIN"""
+# """START MAKING CHATBOT USING LANGCHAIN"""
 
 # from google.colab import userdata
 # api_key=userdata.get('GEMINI_API_KEY')
@@ -35,9 +35,9 @@ LLM = ChatGoogleGenerativeAI(
 
 # print(result.content)
 
-"""NOW PLACE THE LOOP FOR MULTIPLE TIME QUESTION ANSWERS
+# """NOW PLACE THE LOOP FOR MULTIPLE TIME QUESTION ANSWERS
 
-"""
+# """
 
 
 
@@ -79,7 +79,7 @@ if query:
   st.session_state.messages.append({"role":"ai","content":res.content})
   st.chat_message("ai").markdown(res.content)
 
-query = st.chat_input("Ask Anything?")
+# query = st.chat_input("Ask Anything?")
 
 
 
