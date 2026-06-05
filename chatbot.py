@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import streamlit as st
-
+api_key = st.secrets["GEMINI_API_KEY"]
 st.title("QNA_CHATBOT")
 
 
