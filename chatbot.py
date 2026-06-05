@@ -9,25 +9,12 @@ Original file is located at
 
 import streamlit as st
 api_key = st.secrets["GEMINI_API_KEY"]
-
-st.title("QNA_CHATBOT")
-
-
-
-
-
-# """START MAKING CHATBOT USING LANGCHAIN"""
-
-# from google.colab import userdata
-# api_key=userdata.get('GEMINI_API_KEY')
-
 from langchain_google_genai import ChatGoogleGenerativeAI
-
-# now create a llm
 LLM = ChatGoogleGenerativeAI(
     model = "gemini-2.5-flash",
     google_api_key=api_key
 )
+st.title("QNA_CHATBOT")
 
 # ques = "who is the president of india"
 
