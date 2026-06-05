@@ -7,14 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/19L_T2g1TuWD7rUt7H9nNja3K52m3pSKG
 """
 
-pip install langchain-google-genai
-
-pip install google-generativeai
-
-GEMINI_API_KEY="AQ.Ab8RN6JK0c_sIcMkF30SjgQhyQLPtE-BQlgy2-VOg_6ZJy-XHA"
-
-pip install streamlit
-
 import streamlit as st
 
 st.title("QNA_CHATBOT")
